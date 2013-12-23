@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD18C3BB1865FF59007240D1 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD18C3BA1865FF59007240D1 /* ImageProcessor.m */; };
+		BD18C3BE1866020E007240D1 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD18C3BD1866020E007240D1 /* Coordinate.m */; };
+		BD18C3C118660CF1007240D1 /* FPOImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD18C3C018660CF1007240D1 /* FPOImage.m */; };
 		BDC9FC401864DDC00088E6B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC9FC3F1864DDC00088E6B8 /* Cocoa.framework */; };
 		BDC9FC4A1864DDC00088E6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC9FC481864DDC00088E6B8 /* InfoPlist.strings */; };
 		BDC9FC4C1864DDC00088E6B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9FC4B1864DDC00088E6B8 /* main.m */; };
@@ -18,6 +21,7 @@
 		BDC9FC601864DDC00088E6B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC9FC3F1864DDC00088E6B8 /* Cocoa.framework */; };
 		BDC9FC681864DDC10088E6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC9FC661864DDC10088E6B8 /* InfoPlist.strings */; };
 		BDC9FC6A1864DDC10088E6B8 /* FrescoPointOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9FC691864DDC10088E6B8 /* FrescoPointOTests.m */; };
+		BDC9FC781864E17D0088E6B8 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9FC771864E17D0088E6B8 /* MainWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD18C3B91865FF59007240D1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
+		BD18C3BA1865FF59007240D1 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessor.m; sourceTree = "<group>"; };
+		BD18C3BC1866020E007240D1 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		BD18C3BD1866020E007240D1 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		BD18C3BF18660CF1007240D1 /* FPOImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPOImage.h; sourceTree = "<group>"; };
+		BD18C3C018660CF1007240D1 /* FPOImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPOImage.m; sourceTree = "<group>"; };
 		BDC9FC3C1864DDC00088E6B8 /* FrescoPointO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrescoPointO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC9FC3F1864DDC00088E6B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BDC9FC421864DDC00088E6B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +60,8 @@
 		BDC9FC651864DDC00088E6B8 /* FrescoPointOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FrescoPointOTests-Info.plist"; sourceTree = "<group>"; };
 		BDC9FC671864DDC10088E6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDC9FC691864DDC10088E6B8 /* FrescoPointOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrescoPointOTests.m; sourceTree = "<group>"; };
+		BDC9FC761864E17D0088E6B8 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		BDC9FC771864E17D0088E6B8 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,14 @@
 			children = (
 				BDC9FC511864DDC00088E6B8 /* AppDelegate.h */,
 				BDC9FC521864DDC00088E6B8 /* AppDelegate.m */,
+				BDC9FC761864E17D0088E6B8 /* MainWindow.h */,
+				BDC9FC771864E17D0088E6B8 /* MainWindow.m */,
+				BD18C3B91865FF59007240D1 /* ImageProcessor.h */,
+				BD18C3BA1865FF59007240D1 /* ImageProcessor.m */,
+				BD18C3BF18660CF1007240D1 /* FPOImage.h */,
+				BD18C3C018660CF1007240D1 /* FPOImage.m */,
+				BD18C3BC1866020E007240D1 /* Coordinate.h */,
+				BD18C3BD1866020E007240D1 /* Coordinate.m */,
 				BDC9FC541864DDC00088E6B8 /* MainMenu.xib */,
 				BDC9FC571864DDC00088E6B8 /* Images.xcassets */,
 				BDC9FC461864DDC00088E6B8 /* Supporting Files */,
@@ -252,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC9FC781864E17D0088E6B8 /* MainWindow.m in Sources */,
 				BDC9FC531864DDC00088E6B8 /* AppDelegate.m in Sources */,
+				BD18C3BB1865FF59007240D1 /* ImageProcessor.m in Sources */,
+				BD18C3C118660CF1007240D1 /* FPOImage.m in Sources */,
+				BD18C3BE1866020E007240D1 /* Coordinate.m in Sources */,
 				BDC9FC4C1864DDC00088E6B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +488,7 @@
 				BDC9FC6F1864DDC10088E6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDC9FC701864DDC10088E6B8 /* Build configuration list for PBXNativeTarget "FrescoPointOTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +497,7 @@
 				BDC9FC721864DDC10088E6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

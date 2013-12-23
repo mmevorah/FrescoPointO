@@ -10,9 +10,11 @@
 
 @implementation AppDelegate
 
+@synthesize mainWindow = mainWindow_;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    mainWindow_ = [[MainWindow alloc] init];
 }
 
 @end
