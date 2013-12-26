@@ -22,6 +22,7 @@
 		BDC9FC681864DDC10088E6B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDC9FC661864DDC10088E6B8 /* InfoPlist.strings */; };
 		BDC9FC6A1864DDC10088E6B8 /* FrescoPointOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9FC691864DDC10088E6B8 /* FrescoPointOTests.m */; };
 		BDC9FC781864E17D0088E6B8 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9FC771864E17D0088E6B8 /* MainWindow.m */; };
+		BDEB2AC9186BF3D200E8DE8F /* ArduinoCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB2AC8186BF3D200E8DE8F /* ArduinoCommunicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		BDC9FC691864DDC10088E6B8 /* FrescoPointOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrescoPointOTests.m; sourceTree = "<group>"; };
 		BDC9FC761864E17D0088E6B8 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
 		BDC9FC771864E17D0088E6B8 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		BDEB2AC7186BF3D200E8DE8F /* ArduinoCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArduinoCommunicator.h; sourceTree = "<group>"; };
+		BDEB2AC8186BF3D200E8DE8F /* ArduinoCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArduinoCommunicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				BD18C3C018660CF1007240D1 /* FPOImage.m */,
 				BD18C3BC1866020E007240D1 /* Coordinate.h */,
 				BD18C3BD1866020E007240D1 /* Coordinate.m */,
+				BDEB2AC7186BF3D200E8DE8F /* ArduinoCommunicator.h */,
+				BDEB2AC8186BF3D200E8DE8F /* ArduinoCommunicator.m */,
 				BDC9FC541864DDC00088E6B8 /* MainMenu.xib */,
 				BDC9FC571864DDC00088E6B8 /* Images.xcassets */,
 				BDC9FC461864DDC00088E6B8 /* Supporting Files */,
@@ -278,6 +283,7 @@
 				BD18C3C118660CF1007240D1 /* FPOImage.m in Sources */,
 				BD18C3BE1866020E007240D1 /* Coordinate.m in Sources */,
 				BDC9FC4C1864DDC00088E6B8 /* main.m in Sources */,
+				BDEB2AC9186BF3D200E8DE8F /* ArduinoCommunicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
